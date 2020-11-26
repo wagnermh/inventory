@@ -1,0 +1,25 @@
+[API-CORP]
+API-CORP01.DC.NOVA
+API-CORP02.DC.NOVA
+API-CORP03.DC.NOVA
+API-CORP04.DC.NOVA
+API-CORP05.DC.NOVA
+API-CORP06.DC.NOVA
+API-CORP07.DC.NOVA
+API-CORP08.DC.NOVA
+API-CORP09.DC.NOVA
+API-CORP10.DC.NOVA
+API-CORP11.DC.NOVA
+API-CORP12.DC.NOVA
+API-CORP13.DC.NOVA
+API-CORP14.DC.NOVA
+API-CORP15.DC.NOVA
+
+[all:vars]
+ansible_ssh_port: 5986
+ansible_ssh_user: DCNOVA\svc_scripts
+ansible_ssh_password: 1q2w3e4r5t!Q@W#E$R%T
+ansible_password: 1q2w3e4r5t!Q@W#E$R%T
+ansible_connection: winrm
+ansible_winrm_transport: ntlm
+ansible_winrm_server_cert_validation: ignore
