@@ -1,11 +1,11 @@
 [all:vars]
-ansible_ssh_port: 5986
-ansible_ssh_user: DCNOVA\svc_scripts
-ansible_ssh_password: 1q2w3e4r5t!Q@W#E$R%T
-ansible_password: 1q2w3e4r5t!Q@W#E$R%T
-ansible_connection: winrm
-ansible_winrm_transport: ntlm
-ansible_winrm_server_cert_validation: ignore
+ansible_ssh_port=5986
+ansible_ssh_user=DCNOVA\svc_scripts
+ansible_ssh_password=1q2w3e4r5t!Q@W#E$R%T
+ansible_password=1q2w3e4r5t!Q@W#E$R%T
+ansible_connection=winrm
+ansible_winrm_transport=ntlm
+ansible_winrm_server_cert_validation=ignore
 
 [API-CORP]
 API-CORP01.DC.NOVA
